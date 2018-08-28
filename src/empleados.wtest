@@ -10,3 +10,13 @@ test "sueldo de Baigorria y de Gimenez" {
 	gimenez.sueldo(12000)
 	assert.equals(12000, gimenez.sueldo())
 }
+
+test "Galvan paga un sueldo y se deduce de su dinero"{
+	galvan.pagarA(gimenez)
+	assert.equals(285000,galvan.dinero())
+}
+
+test "Si Galvan paga sueldo a Gimenez se incrementa el dinero"{
+	galvan.pagarA(gimenez)
+	assert.equals(15000,gimenez.totalCobrado())
+}
