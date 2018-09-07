@@ -20,3 +20,5 @@ test "Si Galvan paga sueldo a Gimenez se incrementa el dinero"{
 	galvan.pagarA(gimenez)
 	assert.equals(15000,gimenez.totalCobrado())
 }
+
+// bien que agregaste tests! falta testear la deuda

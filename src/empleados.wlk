@@ -51,6 +51,8 @@ object baigorria {
 		self.tratarDePagarDeuda()
 	}
 
+	// estos 4 método métodos que siguen, te los ahorrabas usando properties
+	// después preguntame y lo vemos
 	method totalDeuda() {
 		return deuda
 	}
